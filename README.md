@@ -8,10 +8,17 @@ This is an implementation for 3. project required by the Udacity "Blockchain Dev
 The smart contract implemented in this project is also available on the Rinkeby test network. The contract address is
 
 ```
-TODO: ADD contract address
+0xCFd171E87aE481859c84F6c6e44B46F865d3242B
 ```
 
-On etherscan, you can find the transaction details for the contract under TODO: Add etherscan address
+and the transaction hash is
+
+```
+0x714190843fcfa0bcc8f8b1dae37c4cd72354620800e2928620f82fde8f707610
+```
+
+On etherscan, you can find the transaction details for the contract under 
+https://rinkeby.etherscan.io/tx/0x714190843fcfa0bcc8f8b1dae37c4cd72354620800e2928620f82fde8f707610
 
 ## Project structure
 The project consists of 2 main directories:
