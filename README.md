@@ -260,4 +260,13 @@ To check the authenticity as well as the current state of an item in the supply 
 If the item could be found, you will find all information on the page that appears afterwards.
 
 ## Running tests
-There are tests present within
+There are tests present within the `eth/test` directory. Tests can be run with the following command:
+
+```bash
+cd eth
+truffle test
+```
+
+If the tests succeed, the output should look similar to this:
+
+![](img/tests-output.png)
