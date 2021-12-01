@@ -74,9 +74,13 @@ The main `SupplyChain` contract contains all functions for sending an item throu
 ```bash
 ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster"
 ```
-2. Open a new terminal and migrate and deploy the contracts and deploy them on the local network:
+2. Open a new terminal and install dependencies needed by the truffle project
 ```bash
 cd eth
+npm install
+```
+3. Migrate and deploy the contracts and deploy them on the local network:
+```bash
 truffle migrate --reset
 ```
 > NOTE: Solidity compiler `0.8.10` or above should be used to compile the contracts. Truffle should automatically pick up this version and install the required compiler as it is configured in the `truffle-config.js` file
