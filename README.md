@@ -216,7 +216,7 @@ On the next page enter a price in ETH for which the item should be sold to distr
 
 ![](img/sell-item-2.png)
 
-Accept the transaction in the MetaMask popup and the item should not be available to be bought by distributors
+Accept the transaction in the MetaMask popup and the item should now be available to be bought by distributors
 
 ![](img/sell-item-3.png)
 
