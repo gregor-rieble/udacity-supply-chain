@@ -1,8 +1,21 @@
 const HDWalletProvider = require('truffle-hdwallet-provider');
 
 const fs = require('fs');
-const infuraKey = fs.readFileSync(".infuraKey").toString().trim();
-const mnemonic = fs.readFileSync(".secret").toString().trim();
+
+let infuraKey = "";
+let mnemonic = "";
+
+try {
+  infuraKey = fs.readFileSync(".infuraKey").toString().trim();
+} catch(e) {
+  console.warn("no infura key found, rinkeby network will not be available!");
+}
+
+try {
+  mnemonic = fs.readFileSync(".secret").toString().trim();
+} catch(e) {
+  console.warn("no mnemonic for infura found, rinkeby network will not be available!");
+}
 
 module.exports = {
   // Uncommenting the defaults below 
