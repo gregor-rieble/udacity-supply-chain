@@ -1,5 +1,16 @@
 
 # Coffee Bean Supply Chain DApp
+
+1. [Introduction](#introduction)
+2. [Rinkeby test network](#rinkeby-test-network)
+3. [Project structure](#project-structure)
+4. [Supply Chain](#supply-chain)
+5. [Quickstart](#quickstart)
+6. [Preparation](#preparation)
+7. [Workflow](#workflow)
+8. [Check authenticity of an item](#check-authenticity-of-an-item)
+9. [Running tests](#running-tests)
+
 ## Introduction
 This project implements a DApp for tracking coffe beans through a supply chain from the farm that harvests the beans to the end consumer that purchases them.
 This is an implementation for 3. project required by the Udacity "Blockchain Developer" Nanodegree program. It was built upon the provided skelleton contracts from the Udacity project.
