@@ -1,0 +1,20 @@
+{
+  "name": "udacity-supply-chain",
+  "version": "1.0.0",
+  "description": "DApp for tracking coffe beans supply chain",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle-assertions": "^0.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "ISC"
+}
